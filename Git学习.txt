@@ -19,7 +19,16 @@
 9、查看仓库当前状态  $ git status
 10、提交之前查看该分支修改的文件与仓库中文件的不同
 	$ git diff
-11、
+11、查看Git版本日志  $ git log
+12、回退版本   HEAD表示当前版本  HEAD^表示下一个版本 HEAD^^表示下下个版本   HEAD~3倒数第三个版本
+	$ git reset --hard HEAD^
+	$ git reset --hard commit_id(版本号：只写前几位就可以了)  版本号通过 Git log命令查找
+13、Git的版本回退速度非常快，因为Git在内部有个指向当前版本的HEAD指针，当你回退版本的时候，Git仅仅是把	HEAD从指向当前版本号改为指向你要指向的版本号，然后顺便把工作区的文件更新了
+14、查看命令历史 $ git reflog
+15、工作区（work Directory）:电脑里能看到的目录
+	暂存区（Repository）:隐藏目录 .git 文件
+16、
+
 
 
 
