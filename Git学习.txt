@@ -1,0 +1,17 @@
+1、设置/修改自己的用户名和邮箱
+	$ git config --global user.name "YLJ"
+	$ git config --global user.email "ylj.lifesea.com"
+2、查看自己的用户名、邮箱
+	$ git config user.name
+	$ git config user.email
+3、创建目录  mkdir
+	注意要想在哪个目录下创建文件夹就要进入到该目录
+4、进入到该目录  cd E:/learngit
+5、显示当前目录  pwd
+6、进入该目录，将该目录变成Git可以管理的仓库
+	$ git init
+7、所有的版本控制系统，其实只能跟踪文本文件的改动，比如TXT文件，网页，所有的程序代码等等。二进制文件	五分总文件的变化
+
+
+
+
