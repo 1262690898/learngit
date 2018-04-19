@@ -28,7 +28,7 @@
 15、工作区（work Directory）:电脑里能看到的目录
 	暂存区（Repository）:隐藏目录 .git 文件
 16、git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别（没用懂）
-17、
+17、69827r9837598379
 
 
 
